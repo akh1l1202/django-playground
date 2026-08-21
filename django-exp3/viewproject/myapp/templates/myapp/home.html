@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Function Based View</title>
+</head>
+<body>
+
+    <h1>Function Based View</h1>
+
+    <h2>Welcome to Django!</h2>
+
+    <p><strong>Name:</strong> {{ name }}</p>
+    <p><strong>Course:</strong> {{ course }}</p>
+
+    {% if status %}
+        <p><strong>Status:</strong> Active</p>
+    {% else %}
+        <p><strong>Status:</strong> Inactive</p>
+    {% endif %}
+
+</body>
+</html>
